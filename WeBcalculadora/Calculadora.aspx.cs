@@ -29,6 +29,8 @@ namespace WeBcalculadora
         {
             
         }
+
+
         private void checkBox()
         {
             lresultado.Text = string.Empty;

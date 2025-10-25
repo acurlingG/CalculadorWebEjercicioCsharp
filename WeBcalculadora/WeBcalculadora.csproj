@@ -79,6 +79,7 @@
       <DependentUpon>Calculadora.aspx</DependentUpon>
     </Compile>
     <Compile Include="ClsCheckbox.cs" />
+    <Compile Include="ClsDropdonwlist.cs" />
     <Compile Include="ClsList.cs" />
     <Compile Include="ClsRadionButton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
