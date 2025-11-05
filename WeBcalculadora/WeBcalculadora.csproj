@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Calculadora.aspx" />
+    <Content Include="css\Estilo.css" />
+    <Content Include="css\Estilo1.css" />
+    <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,7 +84,15 @@
     <Compile Include="ClsCheckbox.cs" />
     <Compile Include="ClsDropdonwlist.cs" />
     <Compile Include="ClsList.cs" />
+    <Compile Include="ClsOperacion.cs" />
     <Compile Include="ClsRadionButton.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
